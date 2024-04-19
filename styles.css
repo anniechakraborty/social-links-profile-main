@@ -1,0 +1,27 @@
+@font-face {
+    /* use for headings */
+    font-family: boldFont;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: semiBoldFont;
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    /* use for normal text */
+    font-family: regularFont;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+
+*{
+    background-color: rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    background-color: #1F1F1F;
+}
+
