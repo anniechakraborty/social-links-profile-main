@@ -1,3 +1,5 @@
+/* Font and variable declarations */
+
 @font-face {
     /* use for headings */
     font-family: boldFont;
@@ -15,13 +17,100 @@
     src: url(./assets/fonts/static/Inter-Regular.ttf);
 }
 
+/* --------------- Styles implemented -----------------*/
 
 *{
     background-color: rgb(4, 4, 4);
     color: rgb(255, 255, 255);
 }
 
-.main{
-    background-color: #1F1F1F;
+body{
+    margin: auto auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow-y: auto;
+    /* background-color: red; */
 }
 
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.contact_card {
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    padding: 6px;
+}
+
+.contact_card * {
+    background-color: #1f1f1f;
+    border: none;
+    /* padding: 0.5em; */
+}
+
+/* .header_content, .tagline, .social_links{
+    width: 100%;
+    height: 100%;
+} */
+
+.header_content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.header_content img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.header_content h1 {
+    font-family: boldFont;
+    margin: 0;
+}
+
+.header_content .location {
+    color: #4ef542;
+    font-family: semiBoldFont;
+}
+
+.tagline {
+    font-family: regularFont;
+    text-align: center;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    height: 55%;
+}
+
+.social_links a{
+    font-family: semiBoldFont;
+    text-decoration: none;
+    background-color: rgb(48, 48, 48);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 8px 0;
+}
