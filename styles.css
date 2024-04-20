@@ -29,9 +29,6 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     overflow-y: auto;
     /* background-color: red; */
 }
@@ -59,11 +56,6 @@ body{
     border: none;
     /* padding: 0.5em; */
 }
-
-/* .header_content, .tagline, .social_links{
-    width: 100%;
-    height: 100%;
-} */
 
 .header_content {
     height: 40%;
@@ -101,7 +93,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 4px 0;
-    height: 55%;
+    /* height: 55%; */
 }
 
 .social_links a{
@@ -113,4 +105,18 @@ body{
     border-radius: 10px;
     text-align: center;
     margin: 8px 0;
+}
+
+/* media queries */
+
+@media screen and (min-height: 700px) and (min-width: 370px) {
+    .contact_card {
+        height: 75%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .contact_card {
+        width: 30%;
+    }
 }
