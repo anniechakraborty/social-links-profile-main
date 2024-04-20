@@ -6,7 +6,7 @@
 
 This is my submission for the [Frontend Mentor](https://www.frontendmentor.io) challenge which help me brush up my front-end skills by building realistic projects. It took me approximately 2 hours to complete the challenge. This is the live URL for the challenge : [Social Media Page](https://anniechakraborty.github.io/social-links-profile-main/)
 
-The webpage is mobile responsive and I will be working on it to personalize it further and add some animations.
+The webpage is mobile responsive and I have worked on it to personalize it further and add some animations.
 
 ## The challenge
 
